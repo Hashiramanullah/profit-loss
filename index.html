@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Purchases and Sales Table</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Purchases</h1>
+    <table id="purchasesTable">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>P.price</th>
+                <th>Quantity</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Rows will be added dynamically using JavaScript -->
+        </tbody>
+    </table>
+    <button id="addPurchaseButton">Add Purchase</button>
+    <!-- <button onclick="totalPurchase()">TOTAL</button> -->
+
+
+    <h1>Sales</h1>
+    <table id="salesTable">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>P.price</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>profit</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Rows will be added dynamically using JavaScript -->
+        </tbody>
+    </table>
+    <button id="addSaleButton">Add Sale</button>
+    <button id="totalSale" onclick="totalsale()">Total Sale Price</button>
+
+
+    <h1>Bill</h1>
+    <table id="billTable">
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Percentage</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Rows will be added dynamically using JavaScript -->
+        </tbody>
+    </table>
+    <button id="calculateBillButton">Calculate Bill</button>
+
+    
+
+
+<button id="profitbutn" onclick="grandProfitt()"> <b>Calculate Profit</b></button>
+
+    <!-- <button onclick="totalsale()">TOTAL</button> -->
+
+    <script src="script.js"></script>
+</body>
+</html>
